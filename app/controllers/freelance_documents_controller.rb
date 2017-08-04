@@ -11,7 +11,7 @@ class FreelanceDocumentsController < ApplicationController
   # GET /freelance_documents/1
   def show
     render json: @freelance_document
-  endgit 
+  end
 
   # POST /freelance_documents
   def create
